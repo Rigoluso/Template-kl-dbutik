@@ -1,0 +1,5 @@
+Success: Created real product, pending order, setting, upload and private file.
+Success: Changed the saved data and deleted the saved pending order.
+Restore completed; all persistent file hashes match and Compose health checks passed.
+Success: Restored real product, pending order, setting, upload and private file.
+Actual encrypted backup, deliberate data mutation and recovery exercise passed.

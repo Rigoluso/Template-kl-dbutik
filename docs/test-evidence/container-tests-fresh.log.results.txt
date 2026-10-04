@@ -1,0 +1,30 @@
+Image code is read-only, unshadowed, current, and its runtime configuration is readable by Apache.
+Success: Launch guard blocks purchases while leaving browsing and cart routes available.
+Success: Product fields require a valid nonce and product capability; settings sanitize untrusted input.
+test_admin_requires_login (__main__.ContainerHTTPTests.test_admin_requires_login) ... ok
+test_health_checks_ready_dynamic_application (__main__.ContainerHTTPTests.test_health_checks_ready_dynamic_application) ... ok
+test_private_paths_and_executable_uploads_are_unavailable (__main__.ContainerHTTPTests.test_private_paths_and_executable_uploads_are_unavailable) ... ok
+test_products_come_from_woocommerce_database (__main__.ContainerHTTPTests.test_products_come_from_woocommerce_database) ... ok
+test_real_guest_cart_accepts_database_product (__main__.ContainerHTTPTests.test_real_guest_cart_accepts_database_product) ... ok
+test_spoofed_proxy_headers_do_not_change_scheme (__main__.ContainerHTTPTests.test_spoofed_proxy_headers_do_not_change_scheme) ... ok
+test_storefront_is_rendered_by_real_application (__main__.ContainerHTTPTests.test_storefront_is_rendered_by_real_application) ... ok
+test_unconfigured_store_api_cannot_create_purchase (__main__.ContainerHTTPTests.test_unconfigured_store_api_cannot_create_purchase) ... ok
+----------------------------------------------------------------------
+Ran 8 tests in 3.501s
+OK
+App and NGINX access logs exclude private query values.
+Success: Saved actual product, setting and uploaded data for persistence verification.
+Image code is read-only, unshadowed, current, and its runtime configuration is readable by Apache.
+Success: Product, setting, upload and demo uniqueness survived container recreation.
+test_admin_requires_login (__main__.ContainerHTTPTests.test_admin_requires_login) ... ok
+test_health_checks_ready_dynamic_application (__main__.ContainerHTTPTests.test_health_checks_ready_dynamic_application) ... ok
+test_private_paths_and_executable_uploads_are_unavailable (__main__.ContainerHTTPTests.test_private_paths_and_executable_uploads_are_unavailable) ... ok
+test_products_come_from_woocommerce_database (__main__.ContainerHTTPTests.test_products_come_from_woocommerce_database) ... ok
+test_real_guest_cart_accepts_database_product (__main__.ContainerHTTPTests.test_real_guest_cart_accepts_database_product) ... ok
+test_spoofed_proxy_headers_do_not_change_scheme (__main__.ContainerHTTPTests.test_spoofed_proxy_headers_do_not_change_scheme) ... ok
+test_storefront_is_rendered_by_real_application (__main__.ContainerHTTPTests.test_storefront_is_rendered_by_real_application) ... ok
+test_unconfigured_store_api_cannot_create_purchase (__main__.ContainerHTTPTests.test_unconfigured_store_api_cannot_create_purchase) ... ok
+----------------------------------------------------------------------
+Ran 8 tests in 2.904s
+OK
+Dynamic NGINX/WordPress/WooCommerce integration and container recreation checks passed.

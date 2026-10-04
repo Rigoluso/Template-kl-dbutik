@@ -1,0 +1,11 @@
+.env
+.env.*
+secrets/
+backups/
+.git/
+__pycache__/
+*.zip
+!vendor/*.zip
+docs/
+tests/
+

@@ -1,0 +1,13 @@
+CORE_INSTALL_OK
+Unpacking the package...
+Installing the plugin...
+Plugin installed successfully.
+Activating 'woocommerce'...
+Plugin 'woocommerce' activated.
+Success: Installed 1 of 1 plugins.
+Success: Shop initialized. Launch remains blocked until the missing integrations and launch requirements are implemented and configured.
+Success: Launch guard blocks purchases while leaving browsing and cart routes available.
+Success: Product fields require a valid nonce and product capability; settings sanitize untrusted input.
+Success: Product search and designer/size/color/price filters work together.
+Success: Existing shop preserved; first-install configuration already complete.
+Success: Repeated bootstrap preserves owner name, theme, variant price, stock and media.

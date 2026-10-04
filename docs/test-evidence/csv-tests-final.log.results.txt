@@ -1,0 +1,1 @@
+Success: Real example CSV imports a draft parent, two priced/stocked variants and existing global attributes; duplicate SKUs preserve owner data.

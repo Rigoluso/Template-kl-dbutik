@@ -1,0 +1,10 @@
+CORE_INSTALL_OK
+Unpacking the package...
+Installing the plugin...
+Plugin installed successfully.
+Activating 'woocommerce'...
+Plugin 'woocommerce' activated.
+Success: Installed 1 of 1 plugins.
+Success: Interrupted initial demo product row rolls back before ownership metadata, without successful marker.
+Success: Shop initialized. Launch remains blocked until the missing integrations and launch requirements are implemented and configured.
+Success: Launch guard blocks purchases while leaving browsing and cart routes available.

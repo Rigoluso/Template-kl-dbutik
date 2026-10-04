@@ -1,0 +1,14 @@
+test_demo_proxies_and_overwrites_untrusted_headers (__main__.NginxTests.test_demo_proxies_and_overwrites_untrusted_headers) ... ok
+test_health_path_and_upload_execution (__main__.NginxTests.test_health_path_and_upload_execution) ... ok
+test_login_is_rate_limited (__main__.NginxTests.test_login_is_rate_limited) ... ok
+test_private_query_values_are_not_logged (__main__.NginxTests.test_private_query_values_are_not_logged) ... nginx: the configuration file /tmp/nginx.conf syntax is ok
+nginx: configuration file /tmp/nginx.conf test is successful
+ok
+test_production_first_start_only_exposes_acme (__main__.NginxTests.test_production_first_start_only_exposes_acme) ... ok
+test_unknown_hosts_are_rejected (__main__.NginxTests.test_unknown_hosts_are_rejected) ... ok
+test_z_certificate_install_and_renewal_reload (__main__.NginxTests.test_z_certificate_install_and_renewal_reload) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 68.585s
+
+OK

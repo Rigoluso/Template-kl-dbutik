@@ -1,0 +1,4 @@
+Type,SKU,Name,Published,"Is featured?","Visibility in catalog","Short description",Description,"Tax status","Tax class","In stock?",Stock,"Regular price",Categories,Images,Parent,"Attribute 1 name","Attribute 1 value(s)","Attribute 1 visible","Attribute 1 global","Attribute 2 name","Attribute 2 value(s)","Attribute 2 visible","Attribute 2 global"
+variable,EXAMPLE-IMPORT-TEE,Import example - T-shirt,-1,0,visible,Editable draft example,Replace this text with verified product information.,taxable,,1,,,Import examples,,,Storlek,"S, M",1,1,Färg,Svart,1,1
+variation,EXAMPLE-IMPORT-TEE-S,Import example - T-shirt S,1,0,visible,,,taxable,parent,1,5,249,,,EXAMPLE-IMPORT-TEE,Storlek,S,1,1,Färg,Svart,1,1
+variation,EXAMPLE-IMPORT-TEE-M,Import example - T-shirt M,1,0,visible,,,taxable,parent,1,3,249,,,EXAMPLE-IMPORT-TEE,Storlek,M,1,1,Färg,Svart,1,1

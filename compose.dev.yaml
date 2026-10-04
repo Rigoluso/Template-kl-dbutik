@@ -1,0 +1,14 @@
+# Apply after compose.yaml. Copy .env.demo.example to .env first.
+services:
+  migrate:
+    image: shop-template:0.1.0
+    pull_policy: build
+    build: {context: ., dockerfile: Dockerfile}
+  app:
+    image: shop-template:0.1.0
+    pull_policy: build
+    build: {context: ., dockerfile: Dockerfile}
+  worker:
+    image: shop-template:0.1.0
+    pull_policy: build
+    build: {context: ., dockerfile: Dockerfile}
