@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Blue pants</title>
+  <path d="M144 48h224l36 406H302l-46-190-46 190H108Z" fill="#4269b5" stroke="#172b4d" stroke-width="20" stroke-linejoin="round"/>
+  <path d="M140 112h232M256 112v120M148 112l42 54 28-54M364 112l-42 54-28-54" fill="none" stroke="#e6eefc" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

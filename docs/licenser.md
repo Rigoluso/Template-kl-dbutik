@@ -4,6 +4,8 @@ Egen kod (tema, MU-tillägg, Docker-/NGINX-/test-/driftscripts): GPL-2.0-or-late
 
 De två medföljande PNG-demobilderna är egenproducerade schematiska plaggillustrationer, licensierade enligt GPL-2.0-or-later tillsammans med temat. De beskriver ingen faktisk vara och har inga externa bildrättigheter. Inga externa fotografier, recensioner eller certifieringar ingår. Systemtypsnitt används från köparens egen enhet; inga typsnittsfiler distribueras.
 
+Byxikonen i SVG- och PNG-format är egenproducerad 2026-10-05 och licensierad enligt GPL-2.0-or-later tillsammans med temat.
+
 | Komponent | Version/källa | Licens och åtkomst |
 | --- | --- | --- |
 | WordPress | dependencies.lock.json, officiell wordpress-image | GPL-2.0-or-later; kärnans fullständiga källkod finns i basimagen och från wordpress.org |

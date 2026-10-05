@@ -17,6 +17,17 @@ function kladbutik_setup() {
 }
 add_action('after_setup_theme', 'kladbutik_setup');
 
+// Default pants icon (2026-10-05); a site icon uploaded in admin takes precedence.
+function kladbutik_site_icon_url($url, $size, $blog_id) {
+    $icon_id = is_multisite() && $blog_id
+        ? get_blog_option($blog_id, 'site_icon')
+        : get_option('site_icon');
+    if ($icon_id && $url) { return $url; }
+    $filename = $size <= 32 ? 'favicon-pants-32.png' : 'favicon-pants-512.png';
+    return get_template_directory_uri() . '/assets/' . $filename;
+}
+add_filter('get_site_icon_url', 'kladbutik_site_icon_url', 10, 3);
+
 function kladbutik_assets() {
     $version = wp_get_theme()->get('Version');
     wp_enqueue_style('kladbutik', get_stylesheet_uri(), array(), $version);

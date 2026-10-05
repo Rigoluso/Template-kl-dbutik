@@ -23,6 +23,7 @@ Secrets skapas bara om de saknas. Startskriptet skriver inte över befintlig .en
 - Designers och kollektioner: taxonomier under Produkter. Storlek och färg: WooCommerces produktattribut och variationer.
 - Material, fibersammansättning, skötselråd, storleksguide och produktsäkerhetsuppgifter: produktens extra fält. Dessa uppgifter måste komma från verklig leverantör.
 - Namn, logotyp, favicon, färger, ljus/mörk profil och startsidans texter: **Utseende → Anpassa**. Navigation: WordPress menyredigering. Sidinnehåll: **Sidor**.
+- Standardikonen i webbläsarfliken är ett par blå byxor. En uppladdad webbplatsikon ersätter standardikonen.
 - Lanseringsstatus och företagsinställningar: **WooCommerce → Lanseringskontroll**. Att kryssa i alla punkter aktiverar inte betalning; nödvändiga integrationer saknas fortfarande.
 - Ordrar, kuponger, skatter och frakt: WooCommerces ordinarie admin. Testa inte verkliga köp i denna release.
 
